@@ -26,8 +26,7 @@ service cloud.firestore {
           'Thalavady', 'Thiruvalla', 'Veliyanad', 'Veeyapuram'
         ]
         && request.resource.data.phone is string
-        && request.resource.data.phone.size() >= 7
-        && request.resource.data.phone.size() <= 25
+        && request.resource.data.phone.matches('^[0-9]{10}$')
         && request.resource.data.age is int
         && request.resource.data.age >= 18
         && request.resource.data.age <= 65
