@@ -1,8 +1,18 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "VitalPulse | Blood Donor Registry",
-  description: "Connect blood donors with nearby hospitals and urgent patient needs.",
+  title: "Alappuzha Blood Donation Finder | VitalPulse",
+  description: "Find blood donors in Alappuzha and nearby places. Register as a donor or search the Alappuzha blood donor directory.",
+  keywords: [
+    "Alappuzha blood donation finder",
+    "blood donors in Alappuzha",
+    "Alappuzha blood donor directory",
+    "donate blood Alappuzha",
+    "blood donation near me Alappuzha",
+    "blood donors Ambalappuzha",
+    "blood donors Cherthala",
+    "blood donors Chengannur",
+  ],
 };
 
 export default function RootLayout({ children }) {
